@@ -3,9 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Tea House</title>
+    <!-- talwind and daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+         <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manropoe">
+    <!-- header section -->
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-5xl font-extrabold">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+              <div>
+                <img src="banner.png" class="max-w-sm" />
+                <!-- rating badge -->
+                <div>
+                    <div class=" -mt-20 flex items-center gap-4 drop-shadow-xl bg-white p-5 w-60">
+                        <img src="Group 5.png" alt="">
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Pilot</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <!-- main secton -->
+    <main class="container mx-auto my-24">
+        <!-- feature section -->
+        <section class="text-center">
+            <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+            <p class="lg:max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <!-- feature card container -->
+            <div class=" gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-13">
+                <!-- first card  -->
+                <div class="card p-8 bg-base-200 shadow-xl ">
+                    <figure><img src="tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                        <h2 class="card-title font-extrabold">Milk Tea</h2>
+                        <p class="mb-10">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+
+                <!-- second card  -->
+                <div class="card p-8 bg-base-100 shadow-xl bg-base-200 ">
+                    <figure><img src="tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                      <h2 class="card-title font-extrabold">Green Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+                   <!-- third card  -->
+                <div class="card  p-8 bg-base-100 shadow-xl bg-base-200">
+                    <figure><img src="tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                      <h2 class="card-title font-extrabold">Lemon Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+
+                   <!-- fourth card  -->
+                <div class="card  p-8 bg-base-100 shadow-xl bg-base-200">
+                    <figure><img src="tea-4.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center">
+                      <h2 class="card-title font-extrabold">Black Tea</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+            </div>
+
+
+            <!-- great tea section -->
+
+            <section class="my-24 flex flex-col lg:flex-row  ">
+                <div class="grid grid-cols-1 gap-8 md:grid-cols-2 flex-1 ">
+                    <div class="bg-base-200"></div>
+                    <div class="row-span-2 bg-orange-200 rounded-xl">
+                        <img src="fresh-1.png" alt="">
+                    </div>
+                    <div class="row-span-2 bg-slate-400 rounded-xl justify-center">
+                        <img src="fresh-2.png" alt="">
+                    </div>
+                    <div class="bg-base-200"></div>
+
+                </div>
+
+                <div class="space-y-5 flex-1">
+                    <h3 class="text-5xl font-extrabold">Great Tea, Freshly <br>Presented</h3>
+                    <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                    <h4 class="text-xl font-extrabold mt-7">Unique Taste</h4>
+                    <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                    <h4 class="text-xl font-extrabold mt-7">Unique Taste</h4>
+                    <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                </div>
+
+            </section>
+                
+        </section>
+
+    </main>
+
+    <!-- footer section -->
+
+     <footer>
+
+     </footer>    
 </body>
 </html>
